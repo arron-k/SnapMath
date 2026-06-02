@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="780" viewBox="0 0 820 780">
+  <rect width="820" height="780" fill="#ffffff"/>
+  <rect x="16" y="16" width="788" height="748" fill="none" stroke="#d0d0d0" stroke-width="2"/>
+
+  <text x="48" y="64" font-family="'Apple SD Gothic Neo', 'Helvetica', sans-serif" font-size="24" fill="#444444">5학년 수학  ·  이름 __________</text>
+  <line x1="48" y1="80" x2="772" y2="80" stroke="#e0e0e0" stroke-width="1.5"/>
+
+  <!-- 1. 도형의 넓이 -->
+  <text x="48" y="128" font-family="'Apple SD Gothic Neo', 'Helvetica', sans-serif" font-size="28" fill="#111111" font-weight="bold">1. 다음 도형의 넓이를 구하세요. (단위: cm)</text>
+
+  <polygon points="170,200 324,200 324,266 434,266 434,376 170,376"
+           fill="#f4f7ff" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
+
+  <text x="247" y="188" font-family="'Helvetica', sans-serif" font-size="22" fill="#111111" text-anchor="middle">7</text>
+  <text x="334" y="240" font-family="'Helvetica', sans-serif" font-size="22" fill="#111111">3</text>
+  <text x="379" y="258" font-family="'Helvetica', sans-serif" font-size="22" fill="#111111" text-anchor="middle">5</text>
+  <text x="446" y="328" font-family="'Helvetica', sans-serif" font-size="22" fill="#111111">5</text>
+  <text x="302" y="404" font-family="'Helvetica', sans-serif" font-size="22" fill="#111111" text-anchor="middle">12</text>
+  <text x="156" y="296" font-family="'Helvetica', sans-serif" font-size="22" fill="#111111" text-anchor="end">8</text>
+
+  <!-- 2. 분수 혼합 계산 -->
+  <text x="48" y="468" font-family="'Apple SD Gothic Neo', 'Helvetica', sans-serif" font-size="28" fill="#111111" font-weight="bold">2. 다음을 계산하세요.</text>
+
+  <g font-family="'Helvetica', sans-serif" font-size="40" fill="#111111">
+    <text x="120" y="556">2</text>
+    <text x="178" y="540" text-anchor="middle" font-size="30">1</text>
+    <line x1="160" y1="552" x2="196" y2="552" stroke="#111111" stroke-width="2.5"/>
+    <text x="178" y="582" text-anchor="middle" font-size="30">4</text>
+
+    <text x="228" y="556">+</text>
+
+    <text x="288" y="556">1</text>
+    <text x="346" y="540" text-anchor="middle" font-size="30">5</text>
+    <line x1="328" y1="552" x2="364" y2="552" stroke="#111111" stroke-width="2.5"/>
+    <text x="346" y="582" text-anchor="middle" font-size="30">6</text>
+
+    <text x="396" y="556">=</text>
+  </g>
+
+  <!-- 3. 분수 문장제 -->
+  <text x="48" y="676" font-family="'Apple SD Gothic Neo', 'Helvetica', sans-serif" font-size="28" fill="#111111" font-weight="bold">3. 민호네 반 학생은 모두 28명입니다.</text>
+  <text x="78" y="716" font-family="'Apple SD Gothic Neo', 'Helvetica', sans-serif" font-size="26" fill="#222222">그중 3/7이 안경을 썼습니다. 안경을 쓰지 않은</text>
+  <text x="78" y="750" font-family="'Apple SD Gothic Neo', 'Helvetica', sans-serif" font-size="26" fill="#222222">학생은 몇 명일까요?</text>
+</svg>

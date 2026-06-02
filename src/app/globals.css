@@ -1,0 +1,51 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand: #3b82f6;
+  --color-brand-soft: #dbeafe;
+  --color-accent: #fcd34d;
+  --color-success: #34d399;
+  --color-gentle: #a78bfa;
+
+  --color-surface: #ffffff;
+  --color-surface-soft: #f8fafc;
+  --color-ink: #1f2937;
+  --color-ink-soft: #4b5563;
+
+  --radius-card: 1rem;
+
+  --font-sans: "Pretendard", system-ui, -apple-system, sans-serif;
+}
+
+.dark {
+  --color-surface: #1a1a1a;
+  --color-surface-soft: #232323;
+  --color-ink: #ededed;
+  --color-ink-soft: #c4c4c4;
+  --color-brand-soft: #1e3a5f;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:where(button, a, input, [tabindex]):focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
